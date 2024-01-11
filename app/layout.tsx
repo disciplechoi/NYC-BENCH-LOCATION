@@ -18,8 +18,8 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="city-map">
-        <div className="city-map_content">
+      <body className="city-map bg-slate-100">
+        <div className="city-map_content ">
           <Navbar />
           {children}
         </div>
